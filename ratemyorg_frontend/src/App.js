@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+// import Navbar from './Components/Navbar';
+import OrgList from './Components/OrgList.js';
 
 function App() {
   return (
