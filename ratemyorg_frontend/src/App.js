@@ -1,9 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-// import Navbar from './Components/Navbar';
-import OrgList from './Components/OrgList.js';
-
-
+import NavBar from './Components/Navbar.js';
+//import OrgList from './Components/OrgList.js';
 
 function App() {
   return (
@@ -26,4 +24,8 @@ function App() {
   );
 }
 
-export default App;
+export default App = () => {
+  return (
+    <NavBar />
+  );
+}

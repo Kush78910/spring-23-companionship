@@ -1,3 +1,4 @@
+/*
 import FlatList from 'flatlist-react';
 
 export default function OrgList() {
@@ -24,3 +25,4 @@ export default function OrgList() {
         </ul>
     )
 }
+*/
