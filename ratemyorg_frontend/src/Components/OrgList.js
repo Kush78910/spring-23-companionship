@@ -1,3 +1,4 @@
+// /*
 // import FlatList from 'flatlist-react';
 
 // export default function OrgList() {
@@ -12,15 +13,14 @@
 
 
 
-//       return (
-//         <ul>
-//             <FlatList
-//               list={this.props.people}
-//               renderItem={this.renderPerson}
-//               renderWhenEmpty={() => <div>List is empty!</div>}
-//               sortBy={["firstName", {key: "lastName", descending: true}]}
-//               groupBy={person => person.info.age > 18 ? 'Over 18' : 'Under 18'}
-//             />
-//         </ul>
-//     )
-// }
+    //   return (
+    //     <ul>
+    //         <FlatList
+    //           list={this.props.people}
+    //           renderItem={this.renderPerson}
+    //           renderWhenEmpty={() => <div>List is empty!</div>}
+    //           sortBy={["firstName", {key: "lastName", descending: true}]}
+    //           groupBy={person => person.info.age > 18 ? 'Over 18' : 'Under 18'}
+    //         />
+    //     </ul>
+    // )
