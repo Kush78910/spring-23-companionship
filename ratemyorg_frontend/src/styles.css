@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0rem;
+    border-bottom: 2px solid black;
+    width:100%;
+    height: 20%;
+}
+
+.nav a.rmplogo {
+    width: 11%;
+    align-self: center;
+    margin-left: 2%;
+}
+
+.nav img {
+    width: 100%;
+    align-self: center;
+}
+
+
+.nav ul {
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    text-decoration: 'none';
+    color: black;
+    width:250px;
+    align-items: center;
+}
+
+.nav li {
+    align-content:stretch;
+    height: 100%;
+}
+
+.nav a {
+    height: 100%;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a.logintext {
+    height: inherit;
+    display: flex;
+    margin:none;
+    width: 100px;
+}
+
+.nav a.signuptext {
+    height: inherit;
+    display: flex;
+    margin:none;
+    width: 100px;
+}
+
+.nav span.signuptexttext {
+    align-self: center;
+    margin: auto;
+}
+
+.nav span.logintexttext {
+    align-self: center;
+    margin: auto;
+}
+
+.nav a.logintext:hover {
+    background-color: darkgray;
+}
+
+.nav a.signuptext:hover {
+    background-color: darkgray;
+}
+
+.font-link {
+    font-family: 'Source Sans Pro', cursive;
+}
