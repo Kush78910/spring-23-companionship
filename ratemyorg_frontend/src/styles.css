@@ -14,17 +14,35 @@ body {
     align-items: center;
     gap: 2rem;
     padding: 0 1rem;
+    width:100%;
+    /* height: 90%; */
+    border-bottom: 2px solid black;
 }
 
 .nav ul {
     padding: 0;
-    margin: 0;
+    margin-right: 2%;
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    text-decoration: 'none';
+    color: black;
 }
 
 .nav a {
-    /* color: inherit; */
+    text-decoration: none;
+    color: black;
+}
 
+.nav img {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 7px;
+    /* height: 80%; */
+}
+
+.font-link {
+    font-family: 'Source Sans Pro', cursive;
 }
