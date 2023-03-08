@@ -1,14 +1,24 @@
 import './App.css';
+<<<<<<< HEAD
 import OrgList from './Components/OrgList.js';
 import NavBar from './Components/Navbar.js';
 import ReactScrollableList from './index'
 
 
 
+=======
+import NavBar from './Components/Navbar'
+import SearchBar from './Components/SearchBar'
+import { useState } from 'react';
+>>>>>>> cd42ba1e9812d4cf1783988226c9d6905e9a2031
 
 function App() {
-  return (
+  const [page, setPage] = useState("Home");
+
+  return page === "Home" ? (
+    // searchBar is not done yet
     <div className="App">
+<<<<<<< HEAD
       <NavBar />
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" />
@@ -31,10 +41,21 @@ function App() {
 
       </header>
 
+=======
+      <NavBar/>
+      <SearchBar/>
+    </div>
+  ) : (
+    <div>
+      <p>
+        Not implemented yet
+      </p>
+>>>>>>> cd42ba1e9812d4cf1783988226c9d6905e9a2031
     </div>
   );
 }
 
+<<<<<<< HEAD
 
 
 export default App = () => {
@@ -42,3 +63,6 @@ export default App = () => {
     <NavBar />
   );
 }
+=======
+export default App;
+>>>>>>> cd42ba1e9812d4cf1783988226c9d6905e9a2031
