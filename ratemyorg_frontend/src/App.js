@@ -1,31 +1,24 @@
 import './App.css';
+import NavBar from './Components/Navbar'
+import SearchBar from './Components/SearchBar'
+import { useState } from 'react';
 
 function App() {
-  return (
+  const [page, setPage] = useState("Home");
+
+  return page === "Home" ? (
+    // searchBar is not done yet
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <SearchBar/>
     </div>
   ) : (
     <div>
-      <p>not done yet</p>
-    </div>);
-}
-
-export default App = () => {
-  return (
-    <NavBar />
+      <p>
+        Not implemented yet
+      </p>
+    </div>
   );
 }
+
+export default App;
