@@ -24,6 +24,10 @@
   color: white;
 }
 
+div.testComponent {
+  height: 500px;
+}
+
 /* .App-link {
   color: #61dafb;
 } */
